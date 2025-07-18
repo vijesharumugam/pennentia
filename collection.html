@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pennentia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Pennentia</h1>
+        <div class="navbar_links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="menu" onclick="shownav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenav()"><i class="fa-solid fa-xmark"></i></p>
+        <div class="sidenavbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+<!--product-->
+<div class="product-section">
+    <form class="product-search">
+        <input type="text" name="" id="search-id" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+
+    <div class="products" id="product">
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/564x/3f/ce/86/3fce86f2e968ae09a406e3d413a4438d.jpg" alt="">
+            <p>Gray Hoodie</p>
+        </div>
+
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/236x/70/ac/e6/70ace6559449db91307e9913d6681dff.jpg" alt="">
+            <p>PalGreen Sweatshirt</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/236x/c2/68/39/c268393d8dc5dc6853ff2d78a153cd34.jpg" alt="">
+            <p>Baggy Phant</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/236x/81/2e/f0/812ef0c553901a15a33466a7ef28511a.jpg" alt="">
+            <p>White Shirt Baggy</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/564x/f5/e5/9e/f5e59e354802591345117b56bba5f592.jpg" alt="">
+            <p>Green Casual women</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/736x/62/05/55/6205554bdb814145b2a1822f9adc3647.jpg" alt="">
+            <p>shirt for men</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/736x/87/bb/bc/87bbbc2520a48353c624cc0895b8ea71.jpg" alt="">
+            <p>Popcorn Shirt</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/236x/d2/1a/95/d21a954281aaebc2fd8b1a6fbf79fd19.jpg" alt="">
+            <p>waffle-texture-shirt</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/736x/5a/e5/51/5ae55130bed3628f4b20acfa5efc8027.jpg" alt="">
+            <p>CENTRAL COAST ECO LS FLANNEL</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/564x/cf/42/42/cf4242365a34b2da9e1bbc388558db08.jpg" alt="">
+            <p>Double Pocket Shirt</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/736x/f0/18/85/f01885d6ecc4a04f41c2d960e55c9eab.jpg" alt="">
+            <p>Double Pocket Shirt-Green</p>
+        </div>
+
+        <div class="product-box">
+            <img src="https://i.pinimg.com/564x/76/89/e9/7689e9b2d9554caea31fba02262c07d2.jpg" alt="">
+            <p>Round Collar Shirt-wool</p>
+        </div>
+    </div>
+</div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <h2 class="headingtext">Pennentia</h2>
+            <p>Your One-Stop Shop for Style & Savings!</p>
+            <div class="footericons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="end">@ 2024 Pennentia.com</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
